@@ -1,0 +1,40 @@
+
+#box
+{
+  width: 400px;
+  height:auto;
+  border: 15px solid rgb(84, 8, 49);
+  padding: 40px;
+  top:20px;
+  margin-left: 750px;
+  background-color:rgb(140, 21, 21);
+  position:absolute;
+  
+}
+
+input[type=text], input[type=password] ,input[type=number],input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+#welc{
+    text-align: left;
+    left:400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:50px;
+  }
+  body{
+    height:200px;
+    background-image:url("loginbackground.jpg");
+    background-size: cover;
+    background-position: enter;
+    padding: 10px 8%;
+    position: relative;
+  }
+  a{
+    color:white;
+  }
+    
